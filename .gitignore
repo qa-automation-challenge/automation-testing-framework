@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Env config
+# cypress.env.json
+
+#Reports
+allure-results
+allure-report
+cypress/screenshots
+
+# Others
+.vscode

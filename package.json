@@ -1,0 +1,24 @@
+{
+  "name": "snowandrock-cypress-framework-complete",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "@types/node": "^20.11.0",
+    "cypress": "^13.6.6",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.4.0"
+  }
+}
